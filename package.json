@@ -1,0 +1,16 @@
+{
+  "name": "@madladtv/indexers",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --workspaces --if-present"
+  },
+  "workspaces": [
+    "packages/indexer-types",
+    "packages/creative-commons"
+  ],
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
